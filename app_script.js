@@ -291,6 +291,7 @@ function set_up_main_page(){
 	//time=0050;
 	//sql to select all unique dates.
 	//create array as unknown lenght
+	console.log("today: "+fulldate);
 	
 	db.transaction(function (txs) {
 		
